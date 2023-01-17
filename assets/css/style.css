@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+*{margin: 0;
+padding: 0;
+border: 0;}
+
+body{font-family: lato;
+color: ghostwhite;}
+
+h1{
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: darkgreen;
+}
+
+#logo{float: left;
+font-size: 280%;
+}
+
+#menu{
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+#logo, #menu{
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid darkgreen;
+}
+
+.active{
+    border-bottom: 1px solid darkgreen;
+}
+#hero-image{height: 600px;
+width: 100%;
+    background: url("/assets/images/hamburger-2856548_1920.jpg") no-repeat center center;
+
+animation-name: hero-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+}
+
+#hero-outer{
+height:600px;
+width: 100%;
+overflow: hidden;
+}
+
+@keyframes hero-zoom {
+from{
+    transform: scale(1);
+}
+to{
+    transform: scale(1.1);
+}
+}
+
+#cover-text, #cover-text h2 {
+    color: #ffffff;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: #6bf1a7b3;
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
+}
+
+#plant-powered {height: 600px;}
+
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    color: olive;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    color:olive;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+hr {
+    border-top: 1px solid darkgreen;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+#plant-in {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+    color: olivedrab;
+}
+
+#center-container {
+    width: 300px;
+    height: 100%;
+    padding: 30px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 auto;
+    background: url("/assets/images/yoga-5158345_1920.jpg");
+}
+
+meetings{
+    background: url("/assets/images/exercise-6781240_1920.jpg")  no-repeat;
+
+    
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#meetings div {
+    
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 0 auto;
+    background: url("/assets/images/exercise-6781240_1920.jpg")  no-repeat;
+}
+
+#meetings h2 {
+    color: #fafafa;
+}
+
+
+
+
