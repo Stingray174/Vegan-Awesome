@@ -101,20 +101,20 @@ to{
     padding-top: 30px;
     width: 33%;
     float: left;
-    color: olive;
+    color: black;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    color:olive;
+    color:black;
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: #ffffff;
+    
 }
 
 hr {
@@ -151,38 +151,72 @@ hr {
 }
 
 #center-container {
-    width: 300px;
-    height: 100%;
-    padding: 30px;
+    width: 400px;
+    height: 900px;
+    padding: 0;
     border-style: solid;
     border-width: 1px;
     margin: 0 auto;
-    background: url("/assets/images/yoga-5158345_1920.jpg");
-}
-
-meetings{
-    background: url("/assets/images/exercise-6781240_1920.jpg")  no-repeat;
-
     
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
 }
+
+#center-cover-bg {
+    background: url("/assets/images/camping-4303357_1920.jpg") no-repeat center center; 
+    height: 100%;
+    overflow: hidden;
+    
+    
+}
+
+    #meetings {
+        background-image: url('/assets/images/exercise-6781240_1920.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+
 
 #meetings div {
     
-    width: 25%;
+    color: #fafafa;
+    background-color: rgba(0,0,0, .6);
+    width: 24%;
     height: 300px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    margin: 0 auto;
-    background: url("/assets/images/exercise-6781240_1920.jpg")  no-repeat;
+    margin: 2px; 
+    
+    
 }
 
 #meetings h2 {
     color: #fafafa;
+}
+
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
 }
 
 
