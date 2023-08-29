@@ -1,108 +1,103 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Vegan-Awesome
 
-Welcome Stingray174,
+Welcome to Vegan Awesome !!
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Club Banner](assets/images/vegan-1284778_1920.jpg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Table of contents
 
-## Gitpod Reminders
+- [About the club](#about-the-club)
+-[Mission](#mission)
+-[Goals](#goals)
+-[Activities](#activities)
+-[How to get involved](#how-to-get-involved)
+-[Contact Us](contact-us)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Hero Image](assets/images/hamburger-2856548_1920.jpg)
 
-`python3 -m http.server`
+## About the club
 
-A blue button should appear to click: _Make Public_,
+The Vegan Awesome community is made up of individuals dedicated to spreading awareness about the benefits of a vegan lifestyle forboth personal health and the environment. We believe that every small action can contribute to a more sustainable and compassionate world.
 
-Another blue button should appear to click: _Open Browser_.
+## Mission
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Our mission is to educate, inspire and empower individuals to make conscious decisions or choices that are in tune with a vegan lifestyle. We aim to build and nature a supportive community where people can learn about ethics, health and enviromentally related reasons for choosing and following a vegan lifestyle.
 
-A blue button should appear to click: _Make Public_,
+## Goals
 
-Another blue button should appear to click: _Open Browser_.
+- **Raise Awareness:** Through weekly group meetings and events we strive to inrease awareness about the impacts of using plastic as well as animal agriculture on the environment and advocate for cruelty-free practices.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+-**Promote Education:** We provide resources , facts and research on veganism, helping people make informed decisions about their lifestyle choices.
 
-To log into the Heroku toolbelt CLI:
+-**Create a Community:** Our Community is a space where vegans and non-vegans can come together and share experiences, challenges, and success stories while promoting a sense of belonging.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Activities
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- **Yoga Sessions:** Join our weekly yoga sessions on Friday mornings so you can learn from our trained experts about the physical and mental benefits of incoporating yoga into your everyday life.
 
-------
+- **Beach clean up:** Come and tag along with some our community members in our weekly voluntary beach clean up exercises, make a positive impact on the environment. Saturday mornings.
 
-## Release History
+- **Lunch meets:**  Join us for our weekly lunch get together on Sunday afternoon. This is an opportunity to try out different vegan or plantbased foods , share recipes, and simply grow a network of friends.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- **New Year Dinner/ Special Event:** This is our annually held Special Event where we encourage all existing and new members to come together for an event filled with fun activities including live music while we celebrate our community and the new Year celebrations
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## How to get involved 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+We welcome everyone, whether you are a longtime vegan, curious about the lifestyle, or just interested in making a positive change. Here is how you can get involved:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+1. **Attend Meetings:** Join our regular club meetings to connect with like-minded individuals and stay up to date on upcoming events.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+2. **Follow Us:**  Follow us on social media platforms to stay informed about our activities and interact with our community.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+3. **Participate:** Attend our events, workshops, and activities to learn as well as contribute through engagement.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+4. **Spread the Word:** Share our club and community's mission with your family, friends and colleagues to help raise awareness.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Contact Us 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    
+    
+We value your feedback and ideas. Feel free to reach out to us via email at vegan-awe@emeil.com or connect with us on [Instagram](https://www.instagram.com/vegan-awe)  and [Facebook](https://www.facebook.com/vegan-awe) also on [Twitter](https://www.twitter.com/vegan-awe) and [YouTube](https://www.youtube.com/vegan-awe)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Technologies Used
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+**Languages Used**
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+1. [HTML5]
+2. [CSS3]
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Frameworks, Libraries and programmes used
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+1. **Bootstrap 5.2 :**
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Bootstrap was used to assist with responsiveness and styling of the website
 
-------
+2. **Hover. css :**
 
-## FAQ about the uptime script
+Hover.css was used to add the float transition onto the social media icons while being hovered over.
 
-**Why have you added this script?**
+3. **Google Fonts:**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Google fonts were used in the style.css file which is used on all pages throughout the project.
 
-**How will this affect me?**
+4. **Git:**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Git was used for version control by utilising the Gitpod terminal to commit to Git and push to GitHub
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+5. **Codeanywhere:**
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Codeanywhere was used in later stages of the project, replacing Git as a tool for for version control. The codeanywhere terminal still commits to git and push to Github.
 
-**So….?**
+6. **GitHub:**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+GitHub is used to store projects after being pushed from Git.
 
-**Can I opt out?**
+7. **Balsamiq:**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Balsamiq was used to create wireframes during the design process.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+## Join us and together we can move towards a more compassionate and sustainable world!!
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
 
-Happy coding!
