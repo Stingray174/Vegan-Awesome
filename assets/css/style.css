@@ -1,30 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
-*{margin: 0;
-padding: 0;
-border: 0;}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
-body{font-family: lato;
-color: ghostwhite;}
+body {
+    font-family: lato;
+    color: ghostwhite;
+}
 
-h1{
+h1 {
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: darkgreen;
 }
 
-#logo{float: left;
-font-size: 280%;
+#logo {
+    float: left;
+    font-size: 280%;
 }
 
-#menu{
+#menu {
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px;
 }
 
-#logo, #menu{
+#logo,
+#menu {
     line-height: 75px;
 }
 
@@ -38,42 +44,46 @@ font-size: 280%;
     color: darkgreen;
 }
 
-#menu a:hover{
+#menu a:hover {
     border-bottom: 1px solid darkgreen;
 }
 
-.active{
+.active {
     border-bottom: 1px solid darkgreen;
 }
-#hero-image{height: 600px;
-width: 100%;
+
+#hero-image {
+    height: 600px;
+    width: 100%;
     background: url("/assets/images/hamburger-2856548_1920.jpg") no-repeat center center;
 
-animation-name: hero-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
-#hero-outer{
-height:600px;
-width: 100%;
-overflow: hidden;
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
 }
 
 @keyframes hero-zoom {
-from{
-    transform: scale(1);
-}
-to{
-    transform: scale(1.1);
-}
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #ffffff;
 }
 
- 
+
 
 
 
@@ -94,16 +104,18 @@ to{
     bottom: 100px;
     right: 100px;
 
-    
-    position:absolute;
-    
+
+    position: absolute;
+
 
 }
 
-#plant-powered {height: 600px;}
+#plant-powered {
+    height: 600px;
+}
 
 
-#left-about{
+#left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
@@ -114,13 +126,13 @@ to{
     padding-top: 30px;
     width: 33%;
     float: right;
-    color:black;
+    color: black;
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-    
+
 }
 
 hr {
@@ -163,41 +175,41 @@ hr {
     border-style: solid;
     border-width: 1px;
     margin: 0 auto;
-    
+
 }
 
 #center-cover-bg {
-    background: url("/assets/images/camping-4303357_1920.jpg") no-repeat center center; 
+    background: url("/assets/images/camping-4303357_1920.jpg") no-repeat center center;
     height: 100%;
     overflow: hidden;
-    
-    
+
+
 }
 
-    #meetings {
-        background-image: url('/assets/images/exercise-6781240_1920.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        overflow: hidden;
-    }
+#meetings {
+    background-image: url('/assets/images/exercise-6781240_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
 
 
 
 
 #meetings div {
-    
+
     color: #fafafa;
-    background-color: rgba(0,0,0, .6);
+    background-color: rgba(0, 0, 0, .6);
     width: 24%;
     height: 300px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    margin: 2px; 
-    
-    
+    margin: 2px;
+
+
 }
 
 #meetings h2 {
@@ -205,31 +217,32 @@ hr {
 }
 
 
-footer{
+footer {
     height: 150px;
 }
 
-.social-networks{
+.social-networks {
     text-align: center;
 
 }
 
-.social-networks li{
+.social-networks li {
     display: inline;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #777777;
 }
 
-.card{font-size: 100%; 
-margin:auto;
-padding: 0;
-color: darkgreen;
-display: flex;
+.card {
+    font-size: 100%;
+    margin: auto;
+    padding: 0;
+    color: darkgreen;
+    display: flex;
 }
 
 .form-section {
@@ -238,6 +251,5 @@ display: flex;
     background-size: cover;
     background-position: center;
     height: 900px;
+    left: 0;
 }
-
-
