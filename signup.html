@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegan-Awe!</title>
+
+    <script src="https://kit.fontawesome.com/ffb533d847.js" crossorigin="anonymous"></script>
+
+    <link href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Vegan-Awe!</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a class="active" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="index.html">About Us </a>
+                </li>
+                <li>
+                    <a href="signup.html">Sign Up</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Sign Up</h1>
+        <form action="signup-process.php" method="post">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Sign Up</button>
+
+
+        </form>
+    </section>
+
+    <footer>
+        <ul class="social-networks">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
